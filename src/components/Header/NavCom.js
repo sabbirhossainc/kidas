@@ -87,7 +87,7 @@ const NavCom = () => {
             <UncontrolledDropdown nav inNavbar>
               &nbsp;&nbsp;
               <DropdownToggle
-                caret className={classes.root}
+                caret
                 style={{ backgroundColor: "#fff" , color: "black" }}
               >
                 Services
