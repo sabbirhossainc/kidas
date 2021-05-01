@@ -38,39 +38,39 @@ const Nb = () => {
         CardBody >
         <
         CardTitle tag = "h3" >
-        The Value of Keraniganj Intellectually Disabled And Autistic School <
-        /CardTitle> <
+        The Value of Keraniganj Intellectually Disabled And Autistic School { " " } <
+        /CardTitle>{" "} <
         CardSubtitle tag = "h5"
         className = "mb-2 text-muted" >
-        Let’ s Succeed Together <
-        /CardSubtitle> <
+        Let’ s Succeed Together { " " } <
+        /CardSubtitle>{" "} <
         Typography >
-        Welcome!I provide all the tools, guidance, and support my clients need to succeed in their respective markets.Take a look around and explore the various services I offer, the clients that I’ ve partnered with, and samples of my work. <
-        /Typography> <
-        CardText / > {
+        Welcome!I provide all the tools, guidance, and support my clients need to succeed in their respective markets.Take a look around and explore the various services I offer, the clients that I’ ve partnered with, and samples of my work. { " " } <
+        /Typography>{" "} <
+        CardText / > { " " } {
             /* <Typography>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut
-                          placerat metus, consequat dictum elit. Vivamus id mi vitae leo
-                          lobortis accumsan in a metus. Nam scelerisque, sapien quis
-                          ultrices malesuada, tortor quam pellentesque elit, at viverra nisi
-                          magna eget mauris. Suspendisse mollis metus eget convallis
-                          aliquet. Nulla varius ipsum in metus pellentesque laoreet.
-                          Curabitur ultricies tincidunt fermentum. Ut a odio consectetur,
-                          convallis ante quis, auctor massa. Aliquam erat volutpat. Praesent
-                          non lobortis libero. In lorem lorem, accumsan quis blandit non,
-                          dapibus non sem. Sed sit amet nunc eget augue interdum interdum.
-                          Proin non sem in ex efficitur dictum.
-                        </Typography> */
-        } <
+                                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut
+                                                  placerat metus, consequat dictum elit. Vivamus id mi vitae leo
+                                                  lobortis accumsan in a metus. Nam scelerisque, sapien quis
+                                                  ultrices malesuada, tortor quam pellentesque elit, at viverra nisi
+                                                  magna eget mauris. Suspendisse mollis metus eget convallis
+                                                  aliquet. Nulla varius ipsum in metus pellentesque laoreet.
+                                                  Curabitur ultricies tincidunt fermentum. Ut a odio consectetur,
+                                                  convallis ante quis, auctor massa. Aliquam erat volutpat. Praesent
+                                                  non lobortis libero. In lorem lorem, accumsan quis blandit non,
+                                                  dapibus non sem. Sed sit amet nunc eget augue interdum interdum.
+                                                  Proin non sem in ex efficitur dictum.
+                                                </Typography> */
+        } { " " } <
         CardText / >
         <
         CardImg bottom width = "80%"
         src = { notice }
         alt = "Card image cap" / >
         <
-        /CardBody> <
-        /Card> <
-        /Container> <
+        /CardBody>{" "} <
+        /Card>{" "} <
+        /Container>{" "} <
         />
     );
 };
