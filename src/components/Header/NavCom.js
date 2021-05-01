@@ -88,7 +88,7 @@ const NavCom = () => {
               &nbsp;&nbsp;
               <DropdownToggle
                 caret
-                style={{ backgroundColor: "#5A4C41", color: "white" }}
+                style={{ backgroundColor: "#FAFBFC", color: "white" }}
               >
                 Services
               </DropdownToggle>
