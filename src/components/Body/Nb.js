@@ -59,7 +59,6 @@ const Nb = () => {
                 blandit non, dapibus non sem. Sed sit amet nunc eget augue
                 interdum interdum. Proin non sem in ex efficitur dictum.
               </Typography>
-  
             <CardText />
             <CardImg bottom width="80%" src={notice} alt="Card image cap" />
           </CardBody>
