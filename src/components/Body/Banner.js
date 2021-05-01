@@ -6,6 +6,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    overflow:"auto",
     backgroundColor: "#0F2B5B",
     display: "flex",
     flexWrap: "wrap",

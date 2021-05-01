@@ -4,6 +4,7 @@ import {
   Card,
   Typography,
   CardContent,
+  Box,
 } from "@material-ui/core";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -16,10 +17,12 @@ const FootUp = () => {
       style={{ backgroundColor: "#0F2B5B", height: "auto", color: "black" }}
     >
       <Row>
-        <Col sm md lg={4}>
-          <Card
+        <Col sm={12} md lg={4} style={{marginLeft:"6rem"}}>
+          <Card component={Box}
             style={{
-              marginLeft: "8rem",
+              overflow:"hidden",
+              marginLeft:10,
+              marginRight:10,
               marginBottom: 40,
               marginTop: 40,
               textAlign: "center",
@@ -36,13 +39,13 @@ const FootUp = () => {
           </Card>
         </Col>
         <Col
-          sm
+          sm={12}
           md
           lg={6}
           style={{
             marginTop: 5,
             marginBottom: 5,
-            marginLeft: "15rem",
+            marginLeft: "11rem",
             overflow: "hidden",
           }}
         >

@@ -51,13 +51,13 @@ const NavCom = () => {
           light
           expand="md"
         >
-          <NavbarBrand href="/home">
+          <NavbarBrand href="/">
             <AccessibleForwardRoundedIcon fontSize="large" />
           </NavbarBrand>
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink>
-                <Link className={classes.root} to="/home/">
+                <Link className={classes.root} to="/">
                   <HomeIcon style={{ fontSize: 20, paddingBottom: 3 }} />
                   Home
                 </Link>
@@ -123,7 +123,7 @@ const NavCom = () => {
           <Route path="/notice-board">
             <Nb />
           </Route>
-          <Route path="/home/">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
