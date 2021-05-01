@@ -1,4 +1,4 @@
-import React, from "react";
+import React from "react";
 import { emphasize, withStyles, makeStyles } from '@material-ui/core/styles';
 import HomeIcon from '@material-ui/icons/Home';
 import {
@@ -77,7 +77,7 @@ const NavCom = () => {
     /> 
     Home <
         /Link> < /
-        NavLink > <
+    NavLink > <
         /NavItem> <
     NavItem >
         <
@@ -93,7 +93,7 @@ const NavCom = () => {
         } >
         Education Program <
         /Link> < /
-        NavLink > <
+    NavLink > <
         /NavItem> <
     NavLink >
         <
@@ -104,7 +104,7 @@ const NavCom = () => {
         } >
         Notice Board <
         /Link> < /
-        NavLink > <
+    NavLink > <
         UncontrolledDropdown nav inNavbar > & nbsp; & nbsp; <
     DropdownToggle caret style = {
             { backgroundColor: "#5A4C41", color: "white" }
@@ -118,12 +118,12 @@ const NavCom = () => {
         Link to = "/services/therapeutic-service" >
         Therapeutic Service <
         /Link> < /
-        DropdownItem > <
+    DropdownItem > <
         DropdownItem > Option < /DropdownItem> <
     DropdownItem divider / >
         <
         /DropdownMenu> < /
-        UncontrolledDropdown > <
+    UncontrolledDropdown > <
         /Nav> <
     NavbarText style = {
             { color: "black" }
@@ -159,9 +159,9 @@ const NavCom = () => {
         Home / >
         <
         /Route> < /
-        Switch > <
+    Switch > <
         /Router> < /
-        div >
+    div >
 );
 };
 
