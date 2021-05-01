@@ -29,7 +29,7 @@ export default function MediaCard() {
 
   return (
     <Container>
-      <Grid container justify="space-evenly">
+      <Grid container justify="space-around">
         <Grid item lg={3} md={6} sm={12}>
           <Card className={classes.root}>
             <CardActionArea>
