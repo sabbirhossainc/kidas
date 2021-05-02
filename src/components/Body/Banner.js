@@ -6,14 +6,8 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    overflow:"auto",
+    overflow:"hidden",
     backgroundColor: "#0F2B5B",
-    display: "flex",
-    flexWrap: "wrap",
-    "& > *": {
-      width: theme.spacing(250),
-      height: theme.spacing(14),
-    },
   },
   bg: {
     fontFamily: "Monospace",
@@ -27,14 +21,14 @@ export default function Banner() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div Container className={classes.root}>
       <>
         <CssBaseline />
-        <Box className={classes.bg}>
-          <Typography variant="h4" align="center">
+        <Box className={classes.bg} gutterBottom>
+          <Typography variant="h5" align="center">
             Keraniganj Intellectually Disabled And Autistic School
-            <Typography variant="h5" gutterBottom>
-              Optimize. Innovate. Achieve.
+            <Typography variant="subtitle1" align="center">
+              Optimize | Innovate | Achieve
             </Typography>
           </Typography>
         </Box>

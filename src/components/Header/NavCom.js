@@ -26,9 +26,7 @@ import Ts from "../Body/Ts";
 import Ep from "../Body/Ep";
 import AlertDialogSlide from "../Body/Modal";
 import MoveStuffAround from "../Body/Ticker";
-import { Container, Paper } from "@material-ui/core";
-import zIndex from "@material-ui/core/styles/zIndex";
-// import Ticker from "react-ticker";
+import { Paper } from "@material-ui/core";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -48,6 +46,7 @@ const useStyle = makeStyles((theme) => ({
   },
   tik:{
     flexWrap:"warp",
+    paddingTop:1,
     backgroundColor: theme.palette.grey[800],
     color: theme.palette.grey[100],
     fontSize: 20,
@@ -65,12 +64,13 @@ const NavCom = () => {
 
   return (
     <div>
+      <CssBaseline/>
       <Router>
         <Navbar
           style={{ backgroundColor: "#51B5E0", marginTop: 0 }}
           light
           expand="md"
-        >
+          >
           <NavbarBrand href="/">
             <AccessibleForwardRoundedIcon fontSize="large" />
           </NavbarBrand>
@@ -92,7 +92,7 @@ const NavCom = () => {
                   className={classes.root}
                   to="/edu-program"
                   style={{ color: "black" }}
-                >
+                  >
                   Education Program
                 </Link>
               </NavLink>
@@ -102,16 +102,16 @@ const NavCom = () => {
                 className={classes.root}
                 to="/notice-board"
                 style={{ color: "black" }}
-              >
+                >
                 Notice Board
               </Link>
             </NavLink>
             <UncontrolledDropdown nav inNavbar>
-              {/* &nbsp;&nbsp; */}
+              {/* &nbsp; */}
               <DropdownToggle
                 caret
                 style={{ backgroundColor: "#fff" , color: "black" }}
-              >
+                >
                 Services
               </DropdownToggle>
               <DropdownMenu right>
