@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { emphasize, makeStyles } from "@material-ui/core/styles";
 import HomeIcon from "@material-ui/icons/Home";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import {
+  Collapse,
   Navbar,
+  NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
@@ -22,6 +25,10 @@ import Nb from "../Body/Nb";
 import Ts from "../Body/Ts";
 import Ep from "../Body/Ep";
 import AlertDialogSlide from "../Body/Modal";
+import MoveStuffAround from "../Body/Ticker";
+import { Container, Paper } from "@material-ui/core";
+import zIndex from "@material-ui/core/styles/zIndex";
+// import Ticker from "react-ticker";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -39,10 +46,23 @@ const useStyle = makeStyles((theme) => ({
       backgroundColor: emphasize(theme.palette.grey[300], 0.12),
     },
   },
+  tik:{
+    flexWrap:"warp",
+    backgroundColor: theme.palette.grey[800],
+    color: theme.palette.grey[100],
+    fontSize: 20,
+    height: theme.spacing(4),
+    // height: theme.breakpoints.values.sm[400],
+    overflow:"hidden",
+  },
 }));
 
 const NavCom = () => {
   const classes = useStyle();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
   return (
     <div>
       <Router>
@@ -54,6 +74,8 @@ const NavCom = () => {
           <NavbarBrand href="/">
             <AccessibleForwardRoundedIcon fontSize="large" />
           </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink>
@@ -85,7 +107,7 @@ const NavCom = () => {
               </Link>
             </NavLink>
             <UncontrolledDropdown nav inNavbar>
-              &nbsp;&nbsp;
+              {/* &nbsp;&nbsp; */}
               <DropdownToggle
                 caret
                 style={{ backgroundColor: "#fff" , color: "black" }}
@@ -112,7 +134,11 @@ const NavCom = () => {
           </NavbarText>
           <NavbarText>&nbsp; &nbsp; </NavbarText>
           <AlertDialogSlide />
+          </Collapse>
         </Navbar>
+        <Paper className={classes.tik} square>
+        <MoveStuffAround/>
+        </Paper>
         <Switch>
           <Route path="/services/therapeutic-service">
             <Ts />

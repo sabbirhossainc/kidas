@@ -17,6 +17,7 @@ import slide_4 from "../images/img_slide_4.jpg";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    marginBottom:10,
   },
   media: {
     height: 140,

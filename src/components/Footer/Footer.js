@@ -15,7 +15,7 @@ const Footer = () => {
         }}
       >
         Copyright © Kidas 2020 (Keraniganj Intellectually Disabled And Autistic
-        School) All Rights Reserved | <b>Sabbir Hossain</b>
+        School) All Rights Reserved | <b><a href="https://www.facebook.com/sabbirhossainf">Sabbir Hossain</a></b>
       </footer>
       </>
   );

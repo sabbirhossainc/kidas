@@ -9,8 +9,8 @@ const Header = () => {
     <>
       <CssBaseline />
       <Banner />
-      <MoveStuffAround />
       <NavCom />
+      {/* <MoveStuffAround /> */}
     </>
   );
 };
