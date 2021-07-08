@@ -2,9 +2,11 @@ import React from 'react'
 
 const Ep = () => {
     return (
-        <div>
-            <h1> This is Ep</h1>
-        </div>
+        <Container>
+      <Typography variant="body1" color="error">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, qui ipsam. Dolores suscipit amet facere,
+        ipsum nihil hic maiores cupiditate vitae, dolorum quos ab ea est placeat quo voluptas sint incidunt obcaecati rem, dolorem soluta facilis itaque harum sequi! 
+        Libero officiis harum eaque! Debitis, architecto cumque. Est distinctio doloribus libero?</Typography>
+    </Container>
     )
 }
 
