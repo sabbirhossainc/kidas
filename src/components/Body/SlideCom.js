@@ -12,6 +12,9 @@ import slide_2 from "../images/img_slide_2.jpg";
 import slide_3 from "../images/img_slide_3.jpg";
 import slide_4 from "../images/img_slide_4.jpg";
 
+import slide_5 from "../images/img_slide_5.jpg";
+import slide_6 from "../images/img_slide_6.jpg";
+
 const items = [
   {
     src: slide_1,
@@ -32,6 +35,16 @@ const items = [
     src: slide_4,
     altText: "Slide 4",
     caption: "Slide 4",
+  },
+  {
+    src: slide_5,
+    altText: "Slide 5",
+    caption: "Slide 5",
+  },
+  {
+    src: slide_6,
+    altText: "Slide 6",
+    caption: "Slide 6",
   },
 ];
 
