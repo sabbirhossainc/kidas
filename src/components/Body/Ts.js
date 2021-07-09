@@ -23,27 +23,24 @@ const Ts = () => {
     <Container fixed className={classes.root}>
       <Card>
           <CardBody>
-            <CardTitle tag="h3">
-            Therapeutic service of Keraniganj Intellectually Disabled And Autistic
-              School
+            <CardTitle tag="h3" className="text-center">
+            Physiotherapy
             </CardTitle>
-            <Typography variant="body1" color="initial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, qui ipsam. Dolores suscipit amet facere,
-        ipsum nihil hic maiores cupiditate vitae, dolorum quos ab ea est placeat quo voluptas sint incidunt obcaecati rem, dolorem soluta facilis itaque harum sequi! 
-        Libero officiis harum eaque! Debitis, architecto cumque. Est distinctio doloribus libero?
+            <br/>
+            <Typography variant="body1" color="initial">Physiotherapy is one of the allied health professions that uses mechanical force and movements. Physiotherapy helps improve physical movement, the gross and fine motor activities, paralysis, sensory neural mobility disorders of cerebral palsy and other children with special need.
+Proyash provides physiotherapy to improve the physical problems both visible 4nd Invisible of a particular child and to help lead normal life through regular exercise. Proyash prepares sportsman for Special Olympics through regular sports physiotherapy and maintains their fitness. Proyash is alto establishing Prosthetic and Orthotic. (P&O) Centre to rehabilitate children who need P&O support.
+Activities of Physiotherapy are as follows:
         </Typography>
             <CardText />
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ut placerat metus, consequat dictum elit. Vivamus id mi vitae
-                leo lobortis accumsan in a metus. Nam scelerisque, sapien quis
-                ultrices malesuada, tortor quam pellentesque elit, at viverra
-                nisi magna eget mauris. Suspendisse mollis metus eget convallis
-                aliquet. Nulla varius ipsum in metus pellentesque laoreet.
-                Curabitur ultricies tincidunt fermentum. Ut a odio consectetur,
-                convallis ante quis, auctor massa. Aliquam erat volutpat.
-                Praesent non lobortis libero. In lorem lorem, accumsan quis
-                blandit non, dapibus non sem. Sed sit amet nunc eget augue
-                interdum interdum. Proin non sem in ex efficitur dictum.
+•	Posture management<br/>
+•	Developing muscle strength<br/>
+•	Eye-hand coordination<br/>
+•	Motor planning<br/>
+•	Developing assistive devices<br/>
+•	Improving gait pattern<br/>
+•	Developing strength and endurance<br/>
+
               </Typography>
             <CardText />
           </CardBody>
