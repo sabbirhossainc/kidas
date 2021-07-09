@@ -21,6 +21,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AccessibleForwardRoundedIcon from "@material-ui/icons/AccessibleForwardRounded";
 
 import Home from "../Body/Home";
+import About from "../Body/About";
 import Nb from "../Body/Nb";
 import Ts from "../Body/Ts";
 import Ep from "../Body/Ep";
@@ -115,15 +116,58 @@ const NavCom = () => {
                 Services
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                {/* <DropdownItem>
                   <Link to="/services/therapeutic-service">
                     Therapeutic Service
                   </Link>
+                </DropdownItem> */}
+                <DropdownItem>
+                  <Link to="/services/PSYCHOLOGY-SERVICE-AND-MANAGEMENT">
+                  PSYCHOLOGY SERVICE AND MANAGEMENT
+                  </Link>
                 </DropdownItem>
-                <DropdownItem>Option</DropdownItem>
+                <DropdownItem>
+                  <Link to="/services/DIET-MANAGEMENT">
+                  DIET MANAGEMENT
+                  </Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/services/COUNSELLING">
+                  COUNSELLING
+                  </Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/services/SPEECH-AND-LANGUAGE-THERAPY">
+                  SPEECH AND LANGUAGE THERAPY
+                  </Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/services/OCCUPATIONAL-AND-SENSORY-THERAPY">
+                  OCCUPATIONAL AND SENSORY THERAPY
+                  </Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/services/PHYSIOTHERAPY">
+                  PHYSIOTHERAPY
+                  </Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/services/MUSIC-THERAPY">
+                  MUSIC THERAPY
+                  </Link>
+                </DropdownItem>
                 <DropdownItem divider />
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavLink>
+              <Link
+                className={classes.root}
+                to="/about"
+                style={{ color: "black" }}
+                >
+                About
+              </Link>
+            </NavLink>
           </Nav>
           <NavbarText style={{ color: "black" }}>
             <b>kidas2015bd@gmail.com</b>
@@ -138,7 +182,7 @@ const NavCom = () => {
         </Navbar>
         {/* <MoveStuffAround/> */}
         <Switch>
-          <Route path="/services/therapeutic-service">
+          <Route path="/services/PHYSIOTHERAPY">
             <Ts />
           </Route>
           <Route path="/edu-program">
@@ -146,6 +190,9 @@ const NavCom = () => {
           </Route>
           <Route path="/notice-board">
             <Nb />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route path="/">
             <Home />

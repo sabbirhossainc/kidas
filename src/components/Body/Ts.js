@@ -28,7 +28,7 @@ const Ts = () => {
             </CardTitle>
             <br/>
             <Typography variant="body1" color="initial">Physiotherapy is one of the allied health professions that uses mechanical force and movements. Physiotherapy helps improve physical movement, the gross and fine motor activities, paralysis, sensory neural mobility disorders of cerebral palsy and other children with special need.
-Proyash provides physiotherapy to improve the physical problems both visible 4nd Invisible of a particular child and to help lead normal life through regular exercise. Proyash prepares sportsman for Special Olympics through regular sports physiotherapy and maintains their fitness. Proyash is alto establishing Prosthetic and Orthotic. (P&O) Centre to rehabilitate children who need P&O support.
+Kidas provides physiotherapy to improve the physical problems both visible 4nd Invisible of a particular child and to help lead normal life through regular exercise. Kidas prepares sportsman for Special Olympics through regular sports physiotherapy and maintains their fitness. Kidas is alto establishing Prosthetic and Orthotic. (P&O) Centre to rehabilitate children who need P&O support.
 Activities of Physiotherapy are as follows:
         </Typography>
             <CardText />

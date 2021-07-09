@@ -39,24 +39,17 @@ const Nb = () => {
               Let’ s Succeed Together
             </CardSubtitle>
             <Typography>
-              Welcome!I provide all the tools, guidance, and support my clients
-              need to succeed in their respective markets.Take a look around and
-              explore the various services I offer, the clients that I’ ve
-              partnered with, and samples of my work.
+              Welcome! we provide all the  guidance and support our students
+              need to succeed in their education.Take a look around and
+              explore the various services we offer.
             </Typography>
             <CardText />
               <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ut placerat metus, consequat dictum elit. Vivamus id mi vitae
-                leo lobortis accumsan in a metus. Nam scelerisque, sapien quis
-                ultrices malesuada, tortor quam pellentesque elit, at viverra
-                nisi magna eget mauris. Suspendisse mollis metus eget convallis
-                aliquet. Nulla varius ipsum in metus pellentesque laoreet.
-                Curabitur ultricies tincidunt fermentum. Ut a odio consectetur,
-                convallis ante quis, auctor massa. Aliquam erat volutpat.
-                Praesent non lobortis libero. In lorem lorem, accumsan quis
-                blandit non, dapibus non sem. Sed sit amet nunc eget augue
-                interdum interdum. Proin non sem in ex efficitur dictum.
+              Candidates need to participate in a viva voice for final selection in the program. Once they are selected, they need to pay the first installment of the course fee.
+              </Typography>
+              <CardText/>
+              <Typography>
+*** The students will get opportunity to complete the courses with flexible valid registration period for upto 3 years after admission.
               </Typography>
             <CardText />
             <CardImg bottom width="80%" src={notice} alt="Card image cap" />

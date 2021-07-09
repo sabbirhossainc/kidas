@@ -55,7 +55,7 @@ export default function AlertDialogSlide() {
            <u>Via Bikash Account</u>
           </DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            <b>Bikash A/C :</b>
+            <b>Bikash A/C : +8801712560276</b>
           </DialogContentText>
           <DialogContent style={{ textAlign: "center" }}>
            <u>Via Bank Account</u>
@@ -67,7 +67,7 @@ export default function AlertDialogSlide() {
             <b>Donation A/C: 1202010010419</b>
           </DialogContentText>
           <DialogContentText id="alert-dialog-slide-description">
-           <b>NRB bank, keranigonj,Dhaka</b>
+           <b>NRB bank, keranigonj, Dhaka 1211</b>
           </DialogContentText>
         </DialogContent>
         {/* <DialogActions>
