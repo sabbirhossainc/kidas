@@ -1,6 +1,7 @@
 import React from 'react'
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
+import { makeStyles } from "@material-ui/core/styles";
 import {
   Card,
   CardText,
@@ -8,9 +9,19 @@ import {
   CardTitle,
 } from "reactstrap";
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    marginTop: 30,
+    marginBottom: 30,
+    padding: 10,
+    backgroundColor: theme.palette.grey[300],
+  },
+}));
+
 const Ep = () => {
+  const classes = useStyles();
     return (
-        <Container>
+        <Container fixed className={classes.root}>
           <Card>
           <CardBody>
             <CardTitle tag="h3">
