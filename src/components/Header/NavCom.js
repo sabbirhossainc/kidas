@@ -25,8 +25,8 @@ import Nb from "../Body/Nb";
 import Ts from "../Body/Ts";
 import Ep from "../Body/Ep";
 import AlertDialogSlide from "../Body/Modal";
-import MoveStuffAround from "../Body/Ticker";
-import { Paper } from "@material-ui/core";
+// import MoveStuffAround from "../Body/Ticker";
+// import { Paper } from "@material-ui/core";
 
 const useStyle = makeStyles((theme) => ({
   root: {
@@ -136,9 +136,7 @@ const NavCom = () => {
           <AlertDialogSlide />
           </Collapse>
         </Navbar>
-        <Paper className={classes.tik} square>
-        <MoveStuffAround/>
-        </Paper>
+        {/* <MoveStuffAround/> */}
         <Switch>
           <Route path="/services/therapeutic-service">
             <Ts />
