@@ -25,7 +25,7 @@ const Ep = () => {
           <Card>
           <CardBody>
             <CardTitle tag="h3">
-              The Education programme of Keraniganj Intellectually Disabled And Autistic
+              Education programe of Keraniganj Intellectually Disabled And Autistic
               School
             </CardTitle>
             <Typography variant="body1" color="initial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, qui ipsam. Dolores suscipit amet facere,
