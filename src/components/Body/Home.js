@@ -41,7 +41,7 @@ const Home = () => {
       </div>
       <div className={classes.act}>
           <Typography variant="h3" style={{ textAlign: "center",  paddingBottom:10, color:"InfoBackground" }} gutterBottom>
-              Options
+          Our Services
           </Typography>
         <Container>
           <CustomizedAccordions />
@@ -49,7 +49,7 @@ const Home = () => {
       </div>
       <div className={classes.serv}>
       <Typography variant="h3" style={{ textAlign: "center", paddingBottom:10, }} gutterBottom>
-              Our Services
+              Our Achievements
           </Typography>
           <MediaCard/>
       </div>
